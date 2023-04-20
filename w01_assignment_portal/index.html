@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 230: Assignment Portal</title>
+    <meta name="description" content="WDD 230 Home Page for Lisa Heinhold">
+    <title>WDD 230: Assignment Portal - Lisa Heinhold</title>
     <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="./scripts/script.js" defer></script>
 </head>
 <body>
+    <div class="content">
     <header>
+        <!-- image of me holding a shell -->
         <img src="./images/lisashell.jpeg">
+        <!-- name -->
         <h1>Lisa Heinhold</h1>
     </header>
-    <section class="content">
+    <main>
         <div>
             <h2>WDD 230: Assignment Portal</h2>
             <ul>
-                <li class="one">Lesson 02: <a href="assignment">Title</a></li>
+                <!-- add link to each assignment as they are completed -->
+                <li class="one">Lesson 02: <a href="https://codepen.io/LisaCJHeinhold/pen/oNazZBB">CodePen Change Date Format</a></li>
                 <li class="two">Lesson 03: <a href="assignment">Title</a></li>
                 <li class="one">Lesson 04: <a href="assignment">Title</a></li>
                 <li class="two">Lesson 05: <a href="assignment">Title</a></li>
@@ -29,9 +35,11 @@
             </ul>
             <p>Some lessons may need more than one activity/assignment link.</p>
         </div>
-    </section>
+    </main>
     <footer>
-        <h4>&copy .:|:. Lisa C. Heinhold .:|:. Idaho</h4>
+        <h4>&copy; <span id="currentyear"></span> .:|:. Lisa C. Heinhold .:|:. Idaho</h4>
+        <p>Last Updated: <span id="updated"></span></p>
     </footer>
+    </div>
 </body>
 </html>

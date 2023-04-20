@@ -1,6 +1,10 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 50px 200px 0 200px;
+    /* margin: 50px 200px 0 200px; */
+}
+.content {
+    width: 1100px;
+    margin: 0 auto;
 }
 header {
     background-color: pink;
@@ -11,18 +15,16 @@ header {
 }
 
 header h1 {
-    margin: 70px 10px 0 50px;
-    font-size: 50px;
+    margin: 90px 10px 0 70px;
+    text-align: center;
+    font-size: 70px;
     color: white;
     text-shadow: 5px 5px 5px hotpink;
 }
 header img {
-    width: 40%;
+    width: 35%;
+    height: 40%;
     box-shadow: 5px 5px 10px hotpink;
-}
-.content {
-    text-align: left;
-    padding: 25px;
 }
 ul {
     list-style-type: circle;
@@ -45,7 +47,7 @@ h2 {
     font-weight: bolder;
     border-bottom: 5px dotted hotpink;
 }
-p {
+main div p {
     border-top: 5px dotted hotpink;
 }
 footer {
@@ -56,5 +58,8 @@ footer {
     text-align: center;
 }
 h4 {
+    text-shadow: 5px 5px 4px hotpink;
+}
+footer p {
     text-shadow: 5px 5px 4px hotpink;
 }
