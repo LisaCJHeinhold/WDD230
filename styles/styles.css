@@ -49,6 +49,7 @@ h2 {
 }
 main div p {
     border-top: 5px dotted hotpink;
+    text-align: center;
 }
 footer {
     background-color: pink;
