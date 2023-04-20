@@ -18,7 +18,7 @@ header h1 {
     margin: 90px 10px 0 70px;
     text-align: center;
     font-size: 70px;
-    color: white;
+    color: black;
     text-shadow: 5px 5px 5px hotpink;
 }
 header img {
@@ -33,14 +33,16 @@ ul {
 
 .one {
     background-color: pink;
-    color: hotpink;
+    color: black;
+    padding-left: 5px;
 }
 .two {
     background-color: hotpink;
-    color: pink;
+    color: black;
+    padding-left: 5px;
 }
 li a {
-    color: white;
+    color: black;
 }
 h2 {
     text-shadow: 5px 5px 5px hotpink;
@@ -58,8 +60,9 @@ footer {
     box-shadow: 5px 5px 10px hotpink;
     text-align: center;
 }
-h4 {
+.copy {
     text-shadow: 5px 5px 4px hotpink;
+    font-weight: bold;
 }
 footer p {
     text-shadow: 5px 5px 4px hotpink;
