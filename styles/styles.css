@@ -22,8 +22,8 @@ header h1 {
     text-shadow: 5px 5px 5px hotpink;
 }
 header img {
-    width: 35%;
-    height: 40%;
+    width: 350px;
+    height: 300px;
     box-shadow: 5px 5px 10px hotpink;
 }
 ul {
