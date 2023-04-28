@@ -1,0 +1,15 @@
+@media screen and (min-width: 1050px) {
+    main {
+        display: grid;
+        grid-template-areas: "p1 p2 p3";
+    }
+    .p1 {
+        grid-area: p1;
+    }
+    .p2 {
+        grid-area: p2;
+    }
+    .p3 {
+        grid-area: p3;
+    }
+    }

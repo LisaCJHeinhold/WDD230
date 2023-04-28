@@ -1,0 +1,48 @@
+
+header {
+    text-align: center;
+    background-color: darkcyan;
+}
+h1 {
+    margin-top: 0;
+    font-size: 2.4rem;
+}
+h2 {
+    font-size: 1.9rem;
+}
+.box {
+    background-color: lightgray;
+    margin: 50px;
+    max-width: 100%;
+    border-radius: 25px;
+}
+h3 {
+    background-color: darkcyan;
+    padding: 15px;
+    margin-top: 0;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    font-size: 1.4rem;
+}
+h4 {
+    padding-left: 10px;
+}
+a {
+    padding-left: 10px;
+}
+div p {
+    padding: 10px;
+}
+.box img{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+footer {
+    background-color: darkcyan;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+    padding: 5px;
+}
