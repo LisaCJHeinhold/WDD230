@@ -15,7 +15,7 @@ h2 {
     margin-bottom: 0;
 }
 .box {
-    background-color: lightgray;
+    background-color: rgb(237, 235, 235);
     margin: 50px;
     max-width: 100%;
     border-radius: 25px;
