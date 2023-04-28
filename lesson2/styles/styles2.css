@@ -1,7 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 header {
     text-align: center;
     background-color: darkcyan;
+}
+body {
+    font-family: 'Varela Round', sans-serif;
 }
 h1 {
     margin-top: 0;
@@ -9,6 +12,7 @@ h1 {
 }
 h2 {
     font-size: 1.9rem;
+    margin-bottom: 0;
 }
 .box {
     background-color: lightgray;
@@ -29,6 +33,7 @@ h4 {
 }
 a {
     padding-left: 10px;
+    color: darkcyan;
 }
 div p {
     padding: 10px;
@@ -37,10 +42,13 @@ div p {
     display: block;
     width: 95%;
     margin: 0 auto;
+    padding-top: 4px;
+    max-height: 100%;
 }
 footer {
     background-color: darkcyan;
     text-align: center;
+
 }
 footer p {
     margin: 0;

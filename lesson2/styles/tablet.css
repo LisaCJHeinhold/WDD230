@@ -2,6 +2,7 @@
     main {
         display: grid;
         grid-template-areas: "p1 p2" "p3 p3";
+        grid-template-columns: 1fr 1fr;
     }
     .p1 {
         grid-area: p1;
@@ -11,5 +12,11 @@
     }
     .p3 {
         grid-area: p3;
+    }
+    .p3 h4 {
+        padding-left: 20px;
+    }
+    .p3 a {
+        padding-left: 20px;
     }
   }
