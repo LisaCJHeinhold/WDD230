@@ -13,4 +13,10 @@
     .p3 {
         grid-area: p3;
     }
+    .p3 h4 {
+        padding-left: 0;
     }
+    .p3 a {
+        padding-left: 0;
+    }
+    } 
