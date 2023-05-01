@@ -2,6 +2,7 @@
 header {
     text-align: center;
     background-color: darkcyan;
+    padding: 30px;
 }
 body {
     font-family: 'Varela Round', sans-serif;
@@ -36,7 +37,7 @@ a {
     margin-left: 10px;
 }
 div p {
-    padding: 10px;
+    padding: 30px;
 }
 .box img{
     display: block;
@@ -48,7 +49,7 @@ div p {
 footer {
     background-color: darkcyan;
     text-align: center;
-
+    padding: 10px;
 }
 footer p {
     margin: 0;
