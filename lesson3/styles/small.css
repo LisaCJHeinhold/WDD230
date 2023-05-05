@@ -45,16 +45,18 @@ nav ul li {
 nav ul li a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: .5rem;
 }
 
 nav ul li a:hover {
     background-color: var(--nav-highlight);
+    color: white;
 }
 
 nav ul li.active a {
     background-color: var(--nav-highlight);
+    color: white;
 }
 
 main {
@@ -83,7 +85,7 @@ main {
 
 .nbbc {
     background-color: var(--nav-normal);
-    color: white;
+    color: black;
     padding: 5px;
 }
 
