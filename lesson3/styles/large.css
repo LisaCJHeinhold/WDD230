@@ -1,18 +1,4 @@
 @media (min-width: 1050px){
-    /* body {
-        max-width: 800px;
-    } */
-    /* .container {
-        display: none;
-    } */
-    .menu-icon {
-        display: none;
-      }
-      
-    .menu-items {
-        display: flex;
-    }
-
     nav ul li a {
         font-size: 1.3rem;
     }
