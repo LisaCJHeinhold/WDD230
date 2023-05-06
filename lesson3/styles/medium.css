@@ -1,6 +1,19 @@
 @media screen and (min-width: 800px){
-    header ul {
+    nav ul {
         display: flex;
         flex-direction: row;
     }
+
+    .menu-icon {
+        display: none;
+    }
+      
+    .menu-items {
+        display: flex;
+    }
+    
+    nav ul li a {
+        font-size: 1.3rem;
+    }
+
 }

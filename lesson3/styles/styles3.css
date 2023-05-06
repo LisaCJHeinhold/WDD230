@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --header: #3B1F2B;
+    --nav-normal: #AF9164;
+    --nav-highlight: #8B2635;
+    --accent-green: #254D32;
+    --accent-lilac: #B48EAE;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--header);
+    margin: 0 auto;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    font-size: 3rem;
+}
+
+nav ul {
+    background-color: var(--nav-normal);
+    padding-inline-start: 0px;
+}
+
+nav ul li {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: .5rem;
+}
+
+nav ul li a:hover {
+    background-color: var(--nav-highlight);
+    color: white;
+}
+
+nav ul li.active a {
+    background-color: var(--nav-highlight);
+    color: white;
+}
+
+main {
+    margin: 20px;
+}
+
+.pgtitle {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.subhead {
+    font-size: 1.5rem;
+}
+
+.subsub {
+    font-size: 1.15rem;
+}
+
+.hc {
+    background-color: var(--header);
+    color: white;
+    padding: 5px;
+}
+
+.nbbc {
+    background-color: var(--nav-normal);
+    color: black;
+    padding: 5px;
+}
+
+.nbhc {
+    background-color: var(--nav-highlight);
+    color: white;
+    padding: 5px;
+}
+
+.ac1 {
+    background-color: var(--accent-green);
+    color: white;
+    padding: 5px;
+}
+
+.ac2 {
+    background-color: var(--accent-lilac);
+    padding: 5px;
+}
+
+td{
+    border: 1px solid black;  
+    padding: 1rem;
+  }
+
+img {
+    max-width: 400px;
+    width: 100%;
+}
+
+footer {
+    background-color: var(--header);
+}
+
+footer p {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
