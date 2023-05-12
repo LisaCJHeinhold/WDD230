@@ -16,12 +16,61 @@ body {
 /* header */
 header, footer {
     background-color: var(--header);
+    padding: 10px;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
 }
-
+.header-logo {
+    width: 100px;
+    height: 100px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.button {
+    margin: 8px;
+}
+.branding {
+    font-size: .6rem;
+    color: white;
+    margin: auto 0;
+}
+.title1 {
+    margin-bottom: 0;
+}
+.title2 {
+    margin-top: 5px;
+}
+.socials {
+    max-width: 150px;
+    display: flex;
+    margin: 15px;
+}
+.face-logo {
+    width: 25px;
+    height: 25px;
+    margin: auto 0;
+    padding: 5px;
+}
+.link-logo {
+    width: 25px;
+    height: 20px;
+    margin: auto 0;
+    padding: 5px;
+}
+/* end */
+nav ul li a:hover {
+    color: white;
+    margin: auto 0;
+}
 nav ul li {
     list-style: none;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 nav ul li a {
@@ -30,21 +79,30 @@ nav ul li a {
     color: var(--nav-normal);
     padding: .5rem;
 }
-nav ul li a:hover {
-    background-color: var(--nav-highlight);
-}
 /* hamburger menu stuff */
+#menu-button {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin: auto auto;
+    background-color: var(--nav-highlight);
+    border: none;
+    color: white;
+}
 #navbar {
     display: none;
 }
 #navbar.active {
     display: flex;
     flex-direction: column;
-    background-color: #3B1F2B;
+    background-color: var(--nav-highlight);
     color: white;
+    text-align: center;
 }
 #menu-open {
     display: block;
+    margin: auto auto;
+    font-size: 24px;
 }
 #menu-open.active {
     display: none;
@@ -54,28 +112,39 @@ nav ul li a:hover {
 }
 #menu-close.active {
     display: block;
+    margin: auto auto;
+    font-size: 24px;
 }
 /* end */
+.date-box {
+    margin: 10px 20px 10px 20px;
+    background-color: var(--nav-highlight);
+}
 .todaysdate {
     color: white;
-    background-color: var(--nav-normal);
     text-align: center;
-    margin: 20px;
     padding: 10px;
     font-size: .8rem;
 }
 main section {
-    background-color: var(--accent-lilac);
+    background-color: var(--nav-normal);
     padding: 10px;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
 }
 .spotlight3 {
     display: none;
+    
 }
 .spotlight1, .spotlight2 {
     border-width: 1px;
     border-style: double;
     border-color: var(--header);
+    width: 93%;
+    height: 100px;
 }
 .join {
     display: none;
@@ -94,4 +163,9 @@ footer h3 {
 footer p {
     margin: 0;
     padding: 5px;
+}
+.location {
+    text-decoration: none;
+    color: white;
+
 }
