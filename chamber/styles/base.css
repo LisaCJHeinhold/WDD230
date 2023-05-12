@@ -102,7 +102,7 @@ nav ul li a:hover {
 /* end */
 .todaysdate {
     color: white;
-    background-color: var(--nav-normal);
+    background-color: var(--nav-highlight);
     text-align: center;
     margin: 20px;
     padding: 15px;
