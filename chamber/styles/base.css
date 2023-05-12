@@ -1,3 +1,4 @@
+/* Stuff that effects the whole page */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 :root {
@@ -11,36 +12,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
 }
+/* end */
+/* header */
 header, footer {
     background-color: var(--header);
 }
-header {
-    display: grid;
-    grid-template-areas: "p1 p1 p2 p2 p2" "p3 p3" "p5 p5 p5 p5 p5 p5";
-    /* grid-template-columns: 1fr ; */
-}
-.p1 {
-    max-width: 25%;
-}
-header h1 {
-    color: white;
-    font-size: 1.2rem;
-    margin: auto 0;
-    padding: 5px 5px 0 8px;
-}
-header h2 {
-    color: white;
-    font-size: 1rem;
-    margin: auto 0;
-    padding: 5px 5px 0 8px;
-}
-nav {
-    display: none;
-}
+
 nav ul li {
     list-style: none;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 nav ul li a {
@@ -49,15 +30,41 @@ nav ul li a {
     color: var(--nav-normal);
     padding: .5rem;
 }
+nav ul li a:hover {
+    background-color: var(--nav-highlight);
+}
+/* hamburger menu stuff */
+#navbar {
+    display: none;
+}
+#navbar.active {
+    display: flex;
+    flex-direction: column;
+    background-color: #3B1F2B;
+    color: white;
+}
+#menu-open {
+    display: block;
+}
+#menu-open.active {
+    display: none;
+}
+#menu-close {
+    display: none;
+}
+#menu-close.active {
+    display: block;
+}
+/* end */
 .todaysdate {
     color: white;
     background-color: var(--nav-normal);
     text-align: center;
-    margin: 15px;
-    padding: 15px;
-    font-size: 1rem;
+    margin: 20px;
+    padding: 10px;
+    font-size: .8rem;
 }
-section div {
+main section {
     background-color: var(--accent-lilac);
     padding: 10px;
     margin: 5px;

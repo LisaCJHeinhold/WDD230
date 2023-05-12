@@ -6,40 +6,48 @@
     <meta name="description" content="WDD 230 chamber of commerce site">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hogsmeade Chamber of Commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/large.css">
+    <script src="./scripts/headerfooter.js" defer></script>
     <script src="./scripts/script4.js" defer></script>
 </head>
 <body>
     <header>
-        <img src="./images/hog-logo.png" alt="Hogsmeade Chamber of Commerce Logo" class="p1">
-        <h1 class="p2">Hogsmeade</h1>
-        <h2 class="p3">Chamber of Commerce</h2>
+        <img src="./images/hog-logo-tran.png" alt="Hogsmeade Chamber of Commerce Logo" class="header-logo">
+        <h1 class="title1">Hogsmeade</h1>
+        <h2 class="title2">Chamber of Commerce</h2>
         <nav>
-            <ul class="p4">
-                <li><a href="./index.html">Discover</a></li>
-                <li><a href="./index.html">Directory</a></li>
-                <li><a href="./index.html">Join</a></li>
-                <li><a href="./index.html">Contact</a></li>
-            </ul>
+            <!-- botton for nav small screen -->
+                <button id="menu-button">
+                    <span id="menu-open">&equiv;</span>
+                    <span id="menu-close">X</span>
+                </button>
+                <ul id="menu_box">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./index.html">Discover</a></li>
+                    <li><a href="./index.html">Directory</a></li>
+                    <li><a href="./index.html">Join</a></li>
+                    <li><a href="./index.html">Contact</a></li>
+                </ul>
         </nav>
-        <p class="todaysdate p5"><span id="date"></span></p>
+        <p class="todaysdate"><span id="date"></span></p>
     </header>
-    <section>
-        <div class="hero">
+    <main>
+        <section class="hero">
             <p>hero filler</p>
-        </div>
-        <div class="event">
+        </section>
+        <section class="event">
             <p>event filler</p>
-        </div>
-        <div class="weather">
+        </section>
+        <section class="weather">
             <p>weather</p>
-        </div>
-        <div class="newrelease">
+        </section>
+        <section class="newrelease">
             <p>new release</p>
-        </div>
-        <div class="spotlightbox">
+        </section>
+        <section class="spotlightbox">
             <div class="spotlight1">
                 <p class="hello">spotlight 1</p>
             </div>
@@ -49,11 +57,11 @@
             <div class="spotlight3">
                 <p>spotlight 3</p>
             </div>
-        </div>
-        <div class="join">
+        </section>
+        <section class="join">
             <p>join</p>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer>
         <div>
             <img src="./images/hog-logo.png" alt="Hogsmeade Chamber of Commerce Logo">

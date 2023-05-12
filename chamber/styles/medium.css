@@ -1,0 +1,12 @@
+@media (min-width: 800px) {
+    #navbar {
+        display: flex;
+        flex-direction: row;
+    }
+    #menu-button {
+        display: none;
+    }
+    nav ul li {
+        text-align: center;
+    }
+}
