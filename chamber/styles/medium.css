@@ -39,4 +39,22 @@
     .weather {
         grid-row: 5;
     }
+    .footer-main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: auto;
+    }
+    .img-div {
+        grid-column: 1/2;
+    }
+    .title-addy {
+        grid-column: 2/3;
+        margin: auto;
+        text-align: left;
+    }
+    .other-div {
+        grid-column: 3/4;
+        margin: auto;
+        text-align: center;
+    }
   }
