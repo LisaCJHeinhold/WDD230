@@ -1,6 +1,41 @@
-@media (min-width: 1050px) {
- .branding {
-    width: 50%;
-    font-size: 1.1rem;
- }
-}
+@media (min-width: 1050px){
+    .header-logo{
+      width: 15%;
+    }
+    .branding {
+      width: 25%;
+      font-size: 1.2rem;
+    }
+    .links {
+      display: flex;
+      width: 50%;
+    }
+    #navbar-links{
+      display: flex;
+      flex-direction: row;
+      background-color: #3B1F2B;
+      color: white;
+      list-style: none;
+      margin: auto 0;
+      font-size: 1.2rem;
+      width: 100%;
+      justify-content: space-around;
+      padding-inline-start: 0;
+    }
+    #navbar-links a {
+      display: block;
+      text-decoration: none;
+      color: var(--nav-normal);
+    }
+    #navbar-links a:hover {
+      background-color: var(--nav-highlight);
+    }
+    #menu-button {
+      display: none;
+    }
+    .social-image{
+      width: 55px;
+      height: 55px;
+      margin: auto 5px;
+    }
+  }
