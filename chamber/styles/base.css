@@ -163,6 +163,18 @@ main hr {
 	padding: .8rem;
     box-shadow: 5px 5px 5px #3B1F2B;
 }
+.event {
+    text-align: center;
+}
+.event-description {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.newrelease {
+    text-align: center;
+    padding: 25px;
+}
 /* weather layout */
 .weather {
     display: grid;
@@ -219,6 +231,8 @@ main hr {
     display: flex;
     flex-direction: column;
     text-align: center;
+    box-shadow: 5px 5px 5px var(--header);
+    padding: 20px;
 }
 .spotlight1-info, .spotlight1-info-2, 
 .spotlight2-info, .spotlight2-info-2,
