@@ -113,6 +113,38 @@ main section {
     padding: 10px;
     margin: 5px;
 }
+.hero {
+    padding: 0;
+    position: relative;
+}
+.heroimage {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0.8;
+}
+.hero-title {
+    position: absolute;
+    top: 5%;
+	right: 50%;
+    font-size: 1.6rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    color: var(--header);
+}
+.hero-join-button {
+    position: absolute;
+    top: 75%;
+	right: 8%;
+	background: var(--nav-highlight);
+    font-weight: bolder;
+    color: white;
+    border-radius: 25px;
+	border: 1px solid rgba(0,0,0,.1);
+	padding: .8rem;
+    box-shadow: 5px 5px 5px #3B1F2B;
+}
 .spotlight3 {
     display: none;
 }
@@ -120,6 +152,9 @@ main section {
     border-width: 1px;
     border-style: double;
     border-color: var(--header);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 .join {
     display: none;

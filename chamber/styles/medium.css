@@ -6,6 +6,27 @@
     nav ul li {
         text-align: center;
     }
+    .hero-title {
+        position: absolute;
+        top: 10%;
+        right: 40%;
+        font-size: 1.7rem;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 5px;
+        color: var(--header);
+      }
+      .hero-join-button {
+        position: absolute;
+        top: 83%;
+        right: 10%;
+        background: var(--nav-highlight);
+        font-weight: bolder;
+        color: white;
+        border-radius: 45px;
+        border: 1px solid rgba(0,0,0,.1);
+        padding: 1.2rem;
+        box-shadow: 5px 5px 5px #3B1F2B;
+      }
     .large-main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

@@ -1,80 +1,106 @@
 @media (min-width: 1050px){
-    .header-logo{
-      width: 15%;
-    }
-    .branding {
-      width: 25%;
-      font-size: 1.2rem;
-    }
-    .links {
-      display: flex;
-      width: 50%;
-    }
-    #navbar-links{
-      display: flex;
-      flex-direction: row;
-      background-color: #3B1F2B;
-      color: white;
-      list-style: none;
-      margin: auto 0;
-      font-size: 1.2rem;
-      width: 100%;
-      justify-content: space-around;
-      padding-inline-start: 0;
-    }
-    #navbar-links a {
-      display: block;
-      text-decoration: none;
-      color: var(--nav-normal);
-    }
-    #navbar-links a:hover {
-      background-color: var(--nav-highlight);
-    }
-    #menu-button {
-      display: none;
-    }
-    .social-image{
-      width: 55px;
-      height: 55px;
-      margin: auto 5px;
-    }
-    .large-main {
-        display: grid;
-        grid-template-columns: repeat(4, 2fr);
-    }
-    .event {
-        grid-column: 1;
-        grid-row: 1;
-
-    }
-    .weather {
-        grid-column: 1;
-        grid-row: 2;
-    }
-    .hero {
-        grid-column: 2/4;
-        grid-row: 1/3;
-    }
-    .spotlightbox {
-        display: flex;
-        flex-direction: column;
-        grid-column: 4;
-        grid-row: 1/ 4;
-    }
-    .spotlight1, .spotlight2, .spotlight3 {
-        display: flex;
-        border-width: 1px;
-        border-style: double;
-        border-color: var(--header);
-        width: 97%;
-        margin:10px;
-    }
-    .join {
-        grid-column: 1;
-        grid-row: 3;
-    }
-    .newrelease {
-        grid-column: 2/4;
-        grid-row: 3;
-    }
+  .header-logo{
+    width: 15%;
   }
+  .branding {
+    width: 25%;
+    font-size: 1.2rem;
+  }
+  .links {
+    display: flex;
+    width: 50%;
+  }
+  #navbar-links{
+    display: flex;
+    flex-direction: row;
+    background-color: #3B1F2B;
+    color: white;
+    list-style: none;
+    margin: auto 0;
+    font-size: 1.2rem;
+    width: 100%;
+    justify-content: space-around;
+    padding-inline-start: 0;
+  }
+  #navbar-links a {
+    display: block;
+    text-decoration: none;
+    color: var(--nav-normal);
+  }
+  #navbar-links a:hover {
+    background-color: var(--nav-highlight);
+  }
+  #menu-button {
+    display: none;
+  }
+  .hero-title {
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    font-size: 1.7rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    color: var(--header);
+  }
+  .hero-join-button {
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    background: var(--nav-highlight);
+    font-weight: bolder;
+    color: white;
+    border-radius: 45px;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1.2rem;
+    box-shadow: 5px 5px 5px #3B1F2B;
+  }
+  .social-image{
+    width: 55px;
+    height: 55px;
+    margin: auto 5px;
+  }
+  .large-main {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+  }
+  .event {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .weather {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .hero {
+    grid-column: 2/4;
+    grid-row: 1/3;
+  }
+  .spotlightbox {
+    display: flex;
+    flex-direction: column;
+    grid-column: 4;
+    grid-row: 1/ 4;
+  }
+  .spotlight1, .spotlight2, .spotlight3 {
+    display: flex;
+    border-width: 1px;
+    border-style: double;
+    border-color: var(--header);
+    width: 97%;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .join {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .newrelease {
+    grid-column: 2/4;
+    grid-row: 3;
+  }
+}
