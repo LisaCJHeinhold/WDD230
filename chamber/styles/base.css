@@ -241,6 +241,13 @@ main hr {
     padding: 5px;
     margin: 0;
 }
+.spotlight1-info-2 a, 
+.spotlight2-info-2 a,
+.spotlight3-info-2 a 
+{
+    text-decoration: none;
+    color: black;
+}
 .join {
     display: none;
 }
