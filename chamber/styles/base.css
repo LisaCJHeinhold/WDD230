@@ -56,9 +56,12 @@ nav ul li a {
     text-decoration: none;
     color: var(--nav-normal);
     padding: .5rem;
+    text-align: center;
 }
 nav ul li a:hover {
     background-color: var(--nav-highlight);
+    padding: 10px;
+    border-radius: 25px;
 }
 /* hamburger menu stuff */
 #navbar {
@@ -106,12 +109,27 @@ nav ul li a:hover {
     text-align: center;
     margin: 20px;
     padding: 15px;
-    font-size: .9em;
+    font-size: 1rem;
+}
+#meet-greet {
+    display: none;
+}
+#meet-greet.active {
+    display: block;
+    background-color: var(--nav-normal);
+    text-align: center;
+    margin: 20px;
+    padding: .7rem;
+    font-size: 1.2rem;
+    color: var(--header);
 }
 main section {
     background-color: rgba(var(--accent-lilac-rgb), 0.5);
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
+}
+main hr {
+    width: 100%;
 }
 .hero {
     padding: 0;
@@ -155,6 +173,13 @@ main section {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+.spotlight1-info, .spotlight1-info-2, 
+.spotlight2-info, .spotlight2-info-2,
+.spotlight3-info, .spotlight3-info-2
+{
+    padding: 5px;
+    margin: 0;
 }
 .join {
     display: none;
