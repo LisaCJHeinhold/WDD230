@@ -14,6 +14,7 @@
     nav ul li {
         text-align: center;
     }
+    
     .hero-title {
         position: absolute;
         top: 10%;
@@ -75,8 +76,8 @@
         color: white;
         border-radius: 25px;
         border: 1px solid rgba(0,0,0,.1);
-        padding: .8rem;
-        margin: 1rem;
+        padding: 3%;
+        margin: 4% 3% 0 3%;
         box-shadow: 5px 5px 5px #3B1F2B;
     }
     .event {
