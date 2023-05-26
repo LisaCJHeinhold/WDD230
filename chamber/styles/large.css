@@ -63,7 +63,7 @@
     background: var(--nav-highlight);
     font-weight: bolder;
     color: white;
-    border-radius: 45x;
+    border-radius: 45px;
     border: 1px solid rgba(0,0,0,.1);
     padding: 1.2rem;
     box-shadow: 5px 5px 5px #3B1F2B;
