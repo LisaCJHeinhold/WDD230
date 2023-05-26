@@ -213,7 +213,7 @@ main hr {
     text-align: center;
     margin: 0;
 }
-.humidity {
+.wind-chill {
     grid-row: 5;
     grid-column: 1/5;
     text-align: center;

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/headerfooter.js" defer></script>
     <script src="./scripts/script4.js" defer></script>
+    <script src="./scripts/windchill.js" defer></script>
 </head>
 <body>
     <header>
@@ -59,7 +60,11 @@
     </header>
     <main class="large-main">
         <section class="hero">
-            <img class="heroimage" src="./images/hogsmeade3.jpg" alt="Image of Hogsmeade in the Summer time">
+            <picture class="picture">
+                <source media="(max-width: 650px)" srcset="./images/small.jpg">
+                <source media="(max-width: 1050px)" srcset="./images/medium.jpg">
+                <img class="heroimage" src="./images/large.jpg" alt="Image of Hogsmeade in the Summer time">
+            </picture>
             <h2 class="hero-title">Welcome to Hogsmeade</h2>
             <button class="hero-join-button">Join the Chamber</button>
         </section>
@@ -74,10 +79,10 @@
         <section class="weather">
             <h2 class="weather-title">Weather</h2>
             <img src="./images/icons8-sun-windows-11-color/icons8-sun-240.png" alt="sun image" class="weather-icon">
-            <p class="temp">24&deg;C</p>
+            <p class="temp"><span id="temp"></span>&deg;C</p>
             <p class="weather-description">Sunny!</p>
-            <p class="wind-speed">Wind Speed: 2.5km/h</p>
-            <p class="humidity">Humidity: 40%</p>
+            <p class="wind-speed">Wind Speed: <span id="wind-speed"></span> </p>
+            <p class="wind-chill">Wind Chill: <span id="wind-chill"></span> </p>
         </section>
         <section class="newrelease">
             <h2 class="newrelease-title">📅Magical Community Events Calendar📅</h2>
