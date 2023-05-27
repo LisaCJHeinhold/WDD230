@@ -96,7 +96,7 @@ nav ul li a:hover {
     display: flex;
     height: 50px;
     width: 50px;
-    margin: auto;
+    margin: 5px;
     background-color: var(--nav-highlight);
     border: none;
     color: white;
