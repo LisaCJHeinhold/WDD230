@@ -47,6 +47,9 @@
   .large-main section {
     margin: 1%;
   }
+  .heroimage {
+    object-fit: cover;
+  }
   .hero-title {
     position: absolute;
     top: 10%;
