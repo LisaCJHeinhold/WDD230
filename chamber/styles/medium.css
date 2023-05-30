@@ -69,6 +69,7 @@
     .join-description {
         padding-left: 20px;
         padding-right: 20px;
+        font-weight: 400;
     }
     .join-button {
         background-color: var(--nav-highlight);
