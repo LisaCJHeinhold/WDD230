@@ -18,6 +18,9 @@
     display: flex;
     width: 50%;
   }
+  #navbar li a{
+    display: none;
+  }
   #navbar-links{
     display: flex;
     flex-direction: row;
@@ -36,6 +39,9 @@
     color: var(--nav-normal);
   }
   #navbar-links a:hover {
+    font-weight: 800;
+  }
+  #navbar-links li.active a {
     font-weight: 800;
   }
   #menu-button {

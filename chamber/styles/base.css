@@ -63,6 +63,9 @@ nav ul li a:hover {
     padding: 10px;
     border-radius: 25px;
 }
+#navbar li.active a {
+    font-weight: 800;
+}
 /* hamburger menu stuff */
 #navbar {
     display: none;
@@ -276,4 +279,12 @@ footer p {
 .site {
     text-decoration: none;
     color: white;
+}
+/* discover page css */
+.discover-image {
+    display: block;
+    width: 40%;
+}
+.discover-image:hover {
+    box-shadow: 0 0 50px var(--header);
 }

@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/headerfooter.js" defer></script>
     <script src="./scripts/script4.js" defer></script>
+    <script src="./scripts/discover.js" defer></script>
+    <script src="./scripts/lazyload.js" defer></script>
 </head>
 <body>
     <header>
@@ -26,7 +28,7 @@
           <div class="links">
             <ul id="navbar-links">
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./discover.html">Discover</a></li>
+                <li class="active"><a href="./discover.html">Discover</a></li>
                 <li><a href="./index.html">Directory</a></li>
                 <li><a href="./index.html">Join</a></li>
                 <li><a href="./index.html">Contact</a></li>
@@ -45,15 +47,32 @@
             <!-- botton for nav small screen -->
                 <ul id="navbar">
                     <li><a href="./index.html">Home</a></li>
-                    <li><a href="./index.html">Discover</a></li>
+                    <li class="active"><a href="./discover.html">Discover</a></li>
                     <li><a href="./index.html">Directory</a></li>
                     <li><a href="./index.html">Join</a></li>
                     <li><a href="./index.html">Contact</a></li>
                 </ul>
         </nav>
+        <div class="date-box">
+            <p class="todaysdate"><span id="date"></span></p>
+        </div>
+        <div id="meet-greet">
+            <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+        </div>
     </header>
     <main>
-        
+        <h1>Welcome!</h1>
+        <h2>It has been <span id='days-since-visit'></span> days since your last visit.</h2>
+        <img class="discover-image" src="./images/discover/placeholder.jpg" data-src="./images/discover/also-town.jpg" alt="Beautiful hogesmeade in the winter">
+        <p class="discover-image-description"></p>
+        <img class="discover-image" src="./images/discover/placeholder.jpg" data-src="./images/discover/honeydukes.jpg" alt="Honeydukes store front">
+        <p class="discover-image-description"></p>
+        <img class="discover-image" src="./images/discover/placeholder.jpg" data-src="./images/discover/Hogsmeade-Kids.jpg" alt="Young students from hogwarts visiting the town">
+        <p class="discover-image-description"></p>
+        <img class="discover-image" src="./images/discover/placeholder.jpg" data-src="./images/discover/hogesmeade-sign.jpg" alt="Welcome to hogesmeade sign">
+        <p class="discover-image-description"></p>
+        <img class="discover-image" src="./images/discover/placeholder.jpg" data-src="./images/discover/hogesmeade1.jpg" alt="Town center">
+        <p class="discover-image-description"></p>
     </main>
     <footer>
         <div>
