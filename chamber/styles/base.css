@@ -166,6 +166,10 @@ main hr {
 	padding: .8rem;
     box-shadow: 5px 5px 5px #3B1F2B;
 }
+.hero-join-button:hover {
+    box-shadow: 0 0 10px var(--header);
+    font-size: 1.1rem;
+}
 .event {
     text-align: center;
 }
@@ -281,10 +285,30 @@ footer p {
     color: white;
 }
 /* discover page css */
+.last-visit {
+    background-color: var(--header);
+    padding: .5%;
+    text-align: center;
+    color: var(--nav-normal);
+}
+.last-visit h1 {
+    color: white;
+}
+.last-visit h2 {
+    font-weight: 400;
+}
+.discover-main {
+    margin: 2%;
+}
 .discover-image {
     display: block;
-    width: 40%;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
-.discover-image:hover {
-    box-shadow: 0 0 50px var(--header);
+/* .discover-image-description {
+
+} */
+.bold {
+    font-weight: 700;
 }
