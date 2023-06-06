@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="WDD 230 chamber of commerce site">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogsmeade Chamber of Commerce</title>
+    <link rel="icon" href="./images/favicon_io/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <script src="./scripts/headerfooter.js" defer></script>
+    <script src="./scripts/script4.js" defer></script>
+    <script src="./scripts/windchill.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+          <img src="./images/hog-logo-tran.webp" alt="Hogsmeade Chamber of Commerce Logo" class="header-logo">
+          <div class="branding">
+            <h1 class="title1">Hogsmeade</h1>
+            <h2 class="title2">Chamber of Commerce</h2>
+          </div>
+          <div class="links">
+            <ul id="navbar-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./discover.html">Discover</a></li>
+                <li><a href="./index.html">Directory</a></li>
+                <li class="active"><a href="./join.html">Join</a></li>
+                <li><a href="./index.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="socials">
+            <a href="https://www.facebook.com/" target="_blank"><img src="./images/f_logo_RGB-Blue_100.png" alt="Hogsmeade Chamber of Commerce Logo" class="face-image"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="./images/LI-In-Bug.png" alt="Hogsmeade Chamber of Commerce Logo" class="link-image"></a>
+          </div>
+          <button id="menu-button">
+              <span id="menu-open">&equiv;</span>
+              <span id="menu-close">X</span>
+          </button>
+        </div>
+        <nav>
+            <!-- botton for nav small screen -->
+                <ul id="navbar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./discover.html">Discover</a></li>
+                    <li><a href="./index.html">Directory</a></li>
+                    <li class="active"><a href="./join.html">Join</a></li>
+                    <li><a href="./index.html">Contact</a></li>
+                </ul>
+        </nav>
+        <div class="date-box">
+            <p class="todaysdate"><span id="date"></span></p>
+        </div>
+        <div id="meet-greet">
+            <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        <div>
+            <div  class="footer-main">
+                <div class="img-div">
+                    <img src="./images/hog-logo.png" alt="Hogsmeade Chamber of Commerce Logo" class="footer-logo">
+                </div>
+                <div class="title-addy">
+                    <h3 class="footer-title">Hogsmeade Chamber of Commerce</h3>
+                    <p class="footer-addy">Old Pier House, Fort Augustus PH32 4BX, United Kingdom</p>
+                </div>
+                <div class="other-div">
+                    <p><a href="./index.html" class="site">info@hogsmeade.org</a></p>
+                    <p class="footer-phone">+44-8577091814</p>
+                    <p class="footer-loc"><img src="./images/icons8-location-100.png" alt="location icon" class="loc-icon">
+                        <a href="https://google.com/maps/place/Old+Pier+House/@57.1449082,-4.7211573,14z/data=!4m12!1m2!2m1!1sscottish+heighlands!3m8!1s0x488f222d02a39b1f:0x65add7d270ac063c!5m2!4m1!1i2!8m2!3d57.152062!4d-4.671562!16s%2Fg%2F1wrtcfqr" target="_blank" class="location">Location Map</a>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <p class="copy">&copy; <span id="currentyear"></span> | Lisa C. Heinhold | WDD 230 Project | Last Updated: <span id="updated"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
