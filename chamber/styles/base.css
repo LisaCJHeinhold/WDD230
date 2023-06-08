@@ -309,3 +309,51 @@ footer p {
 .bold {
     font-weight: 700;
 }
+/* join page */
+label{
+    display: block;
+}
+input{
+    display: block;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+textarea{
+    display: block;
+    min-width: none;
+}
+label{
+    margin-top: .5rem;
+}
+.radio-btn{
+    display: inline;
+    margin: 0px 5px 0px 0px;            
+}
+.join-main{
+    display: block;
+}
+.join-form, .benefits{
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 1rem;
+    width: 50%;
+    min-width: 300px;
+}
+.join-submit{
+    font-size: 1.5rem;
+    background: var(--nav-highlight);
+    font-weight: bolder;
+    color: white;
+    border-radius: 25px;
+	border: 1px solid rgba(0,0,0,.1);
+	padding: .9rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 5px #3B1F2B;
+}
+.join-submit:hover {
+    box-shadow: 0 0 10px var(--header);
+    font-size: 1.6rem;
+}
+.mbrlvl {
+    font-size: 1.5rem;
+}

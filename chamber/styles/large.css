@@ -199,4 +199,8 @@
     background-image: url(../images/discover/smaller-back.png);
     background-repeat: repeat;
   }
+  /* join page */
+  .join-main {
+    display: flex;
+  }
 }
