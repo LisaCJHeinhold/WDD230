@@ -177,4 +177,8 @@
     .join-main {
         display: flex;
     }
+    /* thankyou page */
+    .thankyou-msg {
+        font-size: 3rem;
+    }
 }

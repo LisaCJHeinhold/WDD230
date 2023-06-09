@@ -357,3 +357,16 @@ label{
 .mbrlvl {
     font-size: 1.5rem;
 }
+/* thank you page */
+.thankyou-main {
+    background-image: url(../images/discover/smaller-back.png);
+    background-repeat: repeat;
+}
+.thankyou-msg {
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: var(--header);
+    font-size: 2rem;
+}
