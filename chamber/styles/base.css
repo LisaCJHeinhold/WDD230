@@ -320,7 +320,7 @@ input{
 }
 textarea{
     display: block;
-    min-width: none;
+    min-width: 0;
 }
 label{
     margin-top: .5rem;
