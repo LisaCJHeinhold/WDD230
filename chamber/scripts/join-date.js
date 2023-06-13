@@ -5,4 +5,4 @@
   var formattedDate = joinDate.toISOString().split('T')[0];
 
   // Set the value of the hidden input field
-  document.getElementById('dateField').value = formattedDate;
+  document.querySelector('#dateField').value = formattedDate;
