@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 10px 10px 5px  rgb(176, 176, 211);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+section {
+    background-color: rgb(176, 176, 211);
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}
+section:hover {
+    box-shadow: 0 0 20px rgb(33, 33, 51);
+    border-radius: 15px;
+}
+.cards img {
+    box-shadow: 0 0 20px rgb(33, 33, 51);
+    margin: 20px;
+}
+.cards h2 {
+    margin: 10px;
+    padding: 2px;
+    border-bottom: 1px solid black; 
+}
+.cards h3 {
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 2px;
+}
