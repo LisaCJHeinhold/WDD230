@@ -1,0 +1,74 @@
+{"cards": [
+    {
+        "name": "The Three Broomsticks",
+        "address": "1 High Street, Hogesmeade",
+        "phone number": "+44 1234 567890",
+        "website": "www.threebroomsticks.com",
+        "image": "",
+        "membership": "Gold"
+    },
+    {
+        "name": "Zonko's Joke Shop",
+        "address": "5 Prankster Lane, Hogesmeade",
+        "phone number": "+44 1234 567892",
+        "website": "www.zonkos.com/hogesmeade",
+        "image": "",
+        "membership": "Bronze"
+    },
+    {
+        "name": "Honeydukes Sweet Shop",
+        "address": "11 Sugar Lane, Hogesmeade",
+        "phone number": "+44 1234 567895",
+        "website": "www.honeydukessweets.com",
+        "image": "",
+        "membership": "Silver"
+    },
+    {
+        "name": "Gladrags Wizardwear",
+        "address": "13 Town Square, Hogesmeade",
+        "phone number": "+44 1234 567896",
+        "website": "www.wizardwear.com",
+        "image": "",
+        "membership": "Bronze"
+    },
+    {
+        "name": "Owl Post Office",
+        "address": "15 Feather Street, Hogesmeade",
+        "phone number": "+44 1234 567897",
+        "website": "www.owlpost.com",
+        "image": "",
+        "membership": "Silver"
+    },
+    {
+        "name": "The Hogesmeade Community Outreach Center",
+        "address": "21 Harmony Lane, Hogesmeade",
+        "phone number": "+44 1234 567890",
+        "website": "www.HCOC.com",
+        "image": "",
+        "membership": "Non-Profit"
+    },
+    {
+        "name": "Dervish and Banges",
+        "address": "9 Wizarding Way, Hogesmeade",
+        "phone number": "+44 1234 567894",
+        "website": "www.dervishandbanges.com",
+        "image": "",
+        "membership": "Gold"
+    },
+    {
+        "name": "Whispering Willow Herbology Emporium",
+        "address": "25 Herbology Lane, Hogesmeade",
+        "phone number": "+44 1234 567892",
+        "website": "www.whisperingwillow.com",
+        "image": "",
+        "membership": "Bronze"
+    },
+    {
+        "name": "The Wands for Witches and Wizards Foundation",
+        "address": "23 Main street, Hogesmeade",
+        "phone number": "+44 1234 567891",
+        "website": "www.wands4witchesNwizards.com",
+        "image": "",
+        "membership": "Non-Profit"
+    }
+]}

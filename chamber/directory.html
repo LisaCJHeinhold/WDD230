@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="WDD 230 chamber of commerce site">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hogsmeade Chamber of Commerce Join</title>
+    <title>Hogsmeade Chamber of Commerce Directory</title>
     <link rel="icon" href="./images/favicon_io/favicon-16x16.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/base.css">
@@ -14,7 +14,6 @@
     <script src="./scripts/headerfooter.js" defer></script>
     <script src="./scripts/script4.js" defer></script>
     <script src="./scripts/windchill.js" defer></script>
-    <script src="./scripts/join-date.js" defer></script>
 </head>
 <body>
     <header>
@@ -28,8 +27,8 @@
             <ul id="navbar-links">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./discover.html">Discover</a></li>
-                <li><a href="./directory.html">Directory</a></li>
-                <li class="active"><a href="./join.html">Join</a></li>
+                <li class="active"><a href="./directory.html">Directory</a></li>
+                <li><a href="./join.html">Join</a></li>
                 <li><a href="./index.html">Contact</a></li>
             </ul>
           </div>
@@ -47,8 +46,8 @@
                 <ul id="navbar">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./discover.html">Discover</a></li>
-                    <li><a href="./directory.html">Directory</a></li>
-                    <li class="active"><a href="./join.html">Join</a></li>
+                    <li class="active"><a href="./directory.html">Directory</a></li>
+                    <li><a href="./join.html">Join</a></li>
                     <li><a href="./index.html">Contact</a></li>
                 </ul>
         </nav>
@@ -59,54 +58,8 @@
             <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         </div>
     </header>
-    <main class="join-main">
-        <section class="join-form">
-            <form action="thankyou.html" method="GET">
-                <input type="hidden" name="date" id="dateField" value="">
-                <label>First Name*<input name="fname" type="text" value="" placeholder="Your First Name" size="30" maxlength="30" required></label>
-                <label>Last Name*<input name="lname" type="text" value="" placeholder="Your Last Name" size="30" maxlength="30" required></label>
-                <label>Title<input name="title" type="text" value="" placeholder="Your Title" size="30" maxlength="30" pattern="[A-Za-z -]{7,}"></label>
-                <label id="email">Email*<input name="email" type="email" value="" placeholder="Your@email.com" size="30" maxlength="30" required></label>
-                <label id="phone">Cell Phone*<input name="phone" type="tel" value="" placeholder="123-456-7899" size="10" maxlength="10" required></label>
-                <label>Business Name*<input name="bname" type="text" value="" placeholder="Your Business Name" size="30" maxlength="30" required></label>
-                <h2 class="mbrlvl">Membership Level</h2>
-                <label><input class="radio-btn" name="level" type="radio" value="">Non-Profit</label>
-                <label><input class="radio-btn" name="level" type="radio" value="">Bronze</label>
-                <label><input class="radio-btn" name="level" type="radio" value="">Silver</label>
-                <label><input class="radio-btn" name="level" type="radio" value="">Gold</label>
-                <label>Business Description:<textarea name="description" cols="30" rows="5"></textarea></label>
-                <input class="join-submit" type="submit" name="join" value="Join The Chamber!"> 
-            </form>
-        </section>
-        <section class="benefits">
-            <h1>Membership Levels Benefits</h1>
-            <h2>NP Membership</h2>
-            <ul>
-                <li>For non profit organizations there is no fee</li>
-            </ul>
-            <h2>Bronze Membership</h2>
-            <ul>
-                <li>15% discount on events</li>
-                <li>10% discount on advertising</li>
-                <li>Fee of $50/month</li>
-            </ul>
-            <h2>Silver Membership</h2>
-            <ul>
-                <li>25% discount on events</li>
-                <li>15% discount on advertising</li>
-                <li>Free participation in the trade fair</li>
-                <li>Fee of $100/month</li>
-            </ul>
-            <h2>Gold Membership</h2>
-            <ul>
-                <li>50% discount an events</li>
-                <li>50% discount on advertising</li>
-                <li>Free participation in the trade fair</li>
-                <li>5 free featured ads per year</li>
-                <li>1 free training per quarter</li>
-                <li>Fee of $250/month</li>
-            </ul>
-        </section>
+    <main class="directory-main">
+
     </main>
     <footer>
         <div>
