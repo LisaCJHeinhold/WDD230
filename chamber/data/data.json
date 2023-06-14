@@ -4,7 +4,7 @@
         "address": "1 High Street, Hogesmeade",
         "phone": "+44 1234 567890",
         "website": "www.threebroomsticks.com",
-        "image": "",
+        "image": "./images/directory/three-broomsticks.webp",
         "membership": "Gold"
     },
     {
@@ -12,7 +12,7 @@
         "address": "5 Prankster Lane, Hogesmeade",
         "phone": "+44 1234 567892",
         "website": "www.zonkos.com/hogesmeade",
-        "image": "",
+        "image": "./images/directory/zonkos.webp",
         "membership": "Bronze"
     },
     {
@@ -20,7 +20,7 @@
         "address": "11 Sugar Lane, Hogesmeade",
         "phone": "+44 1234 567895",
         "website": "www.honeydukessweets.com",
-        "image": "",
+        "image": "./images/directory/honeydukes.webp",
         "membership": "Silver"
     },
     {
@@ -28,7 +28,7 @@
         "address": "13 Town Square, Hogesmeade",
         "phone": "+44 1234 567896",
         "website": "www.wizardwear.com",
-        "image": "",
+        "image": "./images/directory/Gladrags_wizardwear.webp",
         "membership": "Bronze"
     },
     {
@@ -36,7 +36,7 @@
         "address": "15 Feather Street, Hogesmeade",
         "phone": "+44 1234 567897",
         "website": "www.owlpost.com",
-        "image": "",
+        "image": "./images/directory/owl_post.webp",
         "membership": "Silver"
     },
     {
@@ -44,7 +44,7 @@
         "address": "21 Harmony Lane, Hogesmeade",
         "phone": "+44 1234 567890",
         "website": "www.HCOC.com",
-        "image": "",
+        "image": "./images/directory/hcoc.webp",
         "membership": "Non-Profit"
     },
     {
@@ -52,7 +52,7 @@
         "address": "9 Wizarding Way, Hogesmeade",
         "phone": "+44 1234 567894",
         "website": "www.dervishandbanges.com",
-        "image": "",
+        "image": "./images/directory/Dervish_and_Banges.webp",
         "membership": "Gold"
     },
     {
@@ -60,7 +60,7 @@
         "address": "25 Herbology Lane, Hogesmeade",
         "phone": "+44 1234 567892",
         "website": "www.whisperingwillow.com",
-        "image": "",
+        "image": "./images/directory/herbology.webp",
         "membership": "Bronze"
     },
     {
@@ -68,7 +68,7 @@
         "address": "23 Main street, Hogesmeade",
         "phone": "+44 1234 567891",
         "website": "www.wands4witchesNwizards.com",
-        "image": "",
+        "image": "./images/directory/wand.webp",
         "membership": "Non-Profit"
     }
 ]}

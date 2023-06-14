@@ -13,10 +13,12 @@ async function getmemberData() {
     members.forEach((member) => {
       // Create elements to add to the div.cards element
       let card = document.createElement("section");
-      card.innerHTML = `<h2>${member.name} ${member.lastname}</h2>
-        <h3>Date of Birth: ${member.birthdate}</h3>
-        <h3>Place of Birth: ${member.birthplace}</h3>
-        <img src="${member.imageurl}" height="340" width="240" loading="lazy" alt="Portrait of ${member.name} ${member.lastname}">`;
+      card.innerHTML = `<h2>${member.name}</h2>
+        <h3>Address: ${member.address}</h3>
+        <h3>Phone Number: ${member.phone}</h3>
+        <h3>Website: ${member.website}</h3>
+        <h3>Membership Level: ${member.membership}</h3>
+        <img src="${member.image}" height="300" width="400" loading="lazy" alt="Image of ${member.name}">`;
       cards.appendChild(card);
     }); // end of forEach loop
     
