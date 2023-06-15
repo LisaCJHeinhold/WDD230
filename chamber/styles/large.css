@@ -207,4 +207,35 @@
     .thankyou-msg {
       font-size: 4rem;
     }
+    /* discover list format */
+.list {
+	display: flex;
+	flex-direction: column;
+    margin: 50px;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.8rem;
+    text-align: left;
+}
+
+.list section > * {
+	margin: 0 1rem;
+
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+}
+
+.list section:nth-child(even) {
+	background-color: white;
+}
 }

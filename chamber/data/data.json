@@ -70,5 +70,29 @@
         "website": "www.wands4witchesNwizards.com",
         "image": "./images/directory/wand.webp",
         "membership": "Non-Profit"
+    },
+    {
+        "name": "Shrieking Shack Antiques",
+        "address": "17 Haunt Lane, Hogesmeade",
+        "phone": "+44 1234 567898",
+        "website": "www.ssantiques.com",
+        "image": "./images/directory/shrieking.webp",
+        "membership": "Bronze"
+    },
+    {
+        "name": "Scrivenshaft's Quill Shop",
+        "address": "7 Wither Way, Hogesmeade",
+        "phone": "+44 1234 567893",
+        "website": "www.Scrivenshaftsquills.com",
+        "image": "./images/directory/Scrivenshaft.webp",
+        "membership": "Silver"
+    },
+    {
+        "name": "Madam Puddifoot's Tea Shop",
+        "address": "3 Sweetheart Lane, Hogesmeade",
+        "phone": "+44 1234 567891",
+        "website": "www.madampuddifoots.com",
+        "image": "./images/directory/tea.webp",
+        "membership": "Gold"
     }
 ]}

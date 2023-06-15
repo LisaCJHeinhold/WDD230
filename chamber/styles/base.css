@@ -370,3 +370,83 @@ label{
     color: var(--header);
     font-size: 2rem;
 }
+/* directory page */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.directory-main {
+    background-color: white;
+}
+.cards section {
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.cards section:hover {
+    box-shadow: 0 0 20px #3B1F2B;
+    border-radius: 15px;
+}
+.cards h3 {
+    font-weight: 400;
+}
+.gold {
+    border: 5px solid goldenrod;
+}
+.directory-menu {
+    margin: 1rem auto;
+	padding: 1rem;
+	text-align: center;
+}
+.directory-menu button {
+	padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+	font-weight: 700;
+    background-color: var(--nav-highlight);
+    border: none;
+    color: white;
+    margin: .2rem;
+    border-radius: 25px;
+}
+.directory-menu button:hover {
+    box-shadow: 0 0 10px var(--header);
+    font-size: 1.1rem;
+}
+/* discover list format */
+.list {
+	display: flex;
+	flex-direction: column;
+    margin: 10px;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.8rem;
+    text-align: left;
+}
+
+.list section > * {
+	margin: 0 .5rem;
+
+}
+.list section img {
+	display: none;
+}
+.list section h2 {
+    font-size: 1rem;
+}
+
+.list section h3 {
+	font-size: .7rem;
+}
+
+.list section:nth-child(even) {
+	background-color: white;
+}
+.list .gold {
+    border:none;
+}
