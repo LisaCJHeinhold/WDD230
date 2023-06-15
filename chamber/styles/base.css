@@ -390,6 +390,14 @@ label{
 .cards h3 {
     font-weight: 400;
 }
+.cards a {
+    color: #8B2635;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.grid section img {
+    max-width: 400px;
+}
 .gold {
     border: 5px solid goldenrod;
 }

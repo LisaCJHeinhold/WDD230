@@ -34,9 +34,9 @@ async function getmemberData() {
       card.innerHTML = `<h2>${member.name}</h2>
         <h3>Address: ${member.address}</h3>
         <h3>Phone Number: ${member.phone}</h3>
-        <h3>Website: ${member.website}</h3>
+        <a href="${member.website}">${member.website}</a>
         <h3>Membership Level: ${member.membership}</h3>
-        <img src="${member.image}" height="300" width="400" loading="lazy" alt="Image of ${member.name}">`;
+        <img src="${member.image}" height="225" width="300" loading="lazy" alt="Image of ${member.name}">`;
             // Add a class "gold" to cards with membership level "Gold"
         if (member.membership === "Gold") {
             card.classList.add("gold");

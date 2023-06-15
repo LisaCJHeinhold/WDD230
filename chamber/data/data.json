@@ -72,14 +72,6 @@
         "membership": "Non-Profit"
     },
     {
-        "name": "Shrieking Shack Antiques",
-        "address": "17 Haunt Lane, Hogesmeade",
-        "phone": "+44 1234 567898",
-        "website": "www.ssantiques.com",
-        "image": "./images/directory/shrieking.webp",
-        "membership": "Bronze"
-    },
-    {
         "name": "Scrivenshaft's Quill Shop",
         "address": "7 Wither Way, Hogesmeade",
         "phone": "+44 1234 567893",
