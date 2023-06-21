@@ -389,6 +389,7 @@ label{
 }
 .cards h3 {
     font-weight: 400;
+    font-size: 1rem;
 }
 .cards a {
     color: #8B2635;
@@ -431,7 +432,7 @@ label{
 
 .list section {
 	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-columns: 1fr;
 	margin: 0;
 	padding: 0.8rem;
     text-align: left;
@@ -445,11 +446,11 @@ label{
 	display: none;
 }
 .list section h2 {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .list section h3 {
-	font-size: .7rem;
+	font-size: .9rem;
 }
 
 .list section:nth-child(even) {
@@ -457,4 +458,9 @@ label{
 }
 .list .gold {
     border:none;
+}
+.list a {
+    color: #8B2635;
+    font-weight: 400;
+    font-size: .9rem;
 }

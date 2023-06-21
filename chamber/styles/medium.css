@@ -181,5 +181,12 @@
     .thankyou-msg {
         font-size: 3rem;
     }
-    
+    /* directory */
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+        padding: 0.8rem;
+      text-align: left;
+    }
 }
