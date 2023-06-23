@@ -182,50 +182,20 @@ main hr {
     text-align: center;
     padding: 25px;
 }
-/* weather layout */
-.weather {
-    display: grid;
-    grid-template-columns: repeat(4, 2fr);
-}
-.weather-title {
-    grid-row: 1;
-    grid-column: 1/5;
+/* weather */
+.weather-content {
+    margin: 10px;
     text-align: center;
 }
-.weather-icon {
-    grid-row: 2;
-    grid-column: 1/3;
-    width: 90%;
-    padding-left: 40px;
+.weather-text {
+    display: flex;
 }
-.temp {
-    grid-row: 2;
-    grid-column: 3/5;
-    font-size: 4rem;
-    padding-top: 30px;
-    padding-left: 30px;
+.weather-text p {
+    padding-left: 5px;
+    padding-right: 5px;
 }
-.weather-description {
-    grid-row: 3;
-    grid-column: 1/5;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-align: center;
-    border-bottom: 2px solid var(--header);
-    padding-bottom: 5px;
-}
-.wind-speed {
-    grid-row: 4;
-    grid-column: 1/5;
-    text-align: center;
+figure {
     margin: 0;
-}
-.wind-chill {
-    grid-row: 5;
-    grid-column: 1/5;
-    text-align: center;
-    margin: 0;
-    padding: 5px;
 }
 /* end */
 .spotlight3 {
