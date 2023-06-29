@@ -293,6 +293,11 @@ input{
 textarea{
     display: block;
     min-width: 0;
+    resize: none;
+    padding: .5rem;
+}
+.join-form textarea {
+    max-width: 70%;
 }
 label{
     margin-top: .5rem;
@@ -308,8 +313,8 @@ label{
     padding: 1rem;
     border: 1px solid black;
     margin: 1rem;
-    width: 50%;
-    min-width: 300px;
+    width: 100%;
+    /* min-width: 500px; */
 }
 .join-submit{
     font-size: 1.5rem;
