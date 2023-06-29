@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="WDD 230 chamber of commerce site">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hogsmeade Chamber of Commerce Directory</title>
+    <title>Hogsmeade Chamber of Commerce Join</title>
     <link rel="icon" href="./images/favicon_io/favicon-16x16.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/base.css">
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/headerfooter.js" defer></script>
     <script src="./scripts/script4.js" defer></script>
-    <script src="./scripts/directory.js" defer></script>
+    <script src="./scripts/join-date.js" defer></script>
 </head>
 <body>
     <header>
@@ -27,9 +27,9 @@
             <ul id="navbar-links">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./discover.html">Discover</a></li>
-                <li class="active"><a href="./directory.html">Directory</a></li>
+                <li><a href="./directory.html">Directory</a></li>
                 <li><a href="./join.html">Join</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li class="active"><a href="./contact.html">Contact</a></li>
             </ul>
           </div>
           <div class="socials">
@@ -46,9 +46,9 @@
                 <ul id="navbar">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./discover.html">Discover</a></li>
-                    <li class="active"><a href="./directory.html">Directory</a></li>
+                    <li><a href="./directory.html">Directory</a></li>
                     <li><a href="./join.html">Join</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li class="active"><a href="./contact.html">Contact</a></li>
                 </ul>
         </nav>
         <div class="date-box">
@@ -58,12 +58,38 @@
             <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         </div>
     </header>
-    <main class="directory-main">
-        <div class="directory-menu">
-            <button id="grid">Grid</button>
-            <button id="list">List</button>
+    <main class="contact-main">
+        <div class="contact-page-content">
+            <div class="contact-info">
+                <h2 class="contact-msg">We Would Love to Hear From You!</h2>
+                <p>If you have questions about the chamber, the community, or the area, we would be happy to help!</p>
+                <img class="contact-img" src="./images/contact-us.webp" alt="Your commity members">
+                <h3>Old Pier House,</h3>
+                    <h3>Fort Augustus PH32 4BX,</h3>
+                    <h3>United Kingdom</h3>
+                <p>Phone: +44(857)709-1814</p>
+                <p>Fax: +44(857)276-5946</p>
+                <h4>Chamber's Hours</h4>
+                <p>Monday - Friday: 9:00am - 5:00pm </p>
+                <p>Saturday: Closed</p>
+                <p>Sunday: Closed</p>
+                <p>We are closed on all national holidays.</p>
+                <img class="contact-img3" src="./images/town1.webp" alt="hogesmeade">
+                <img class="contact-img3" src="./images/town2.webp" alt="hogesmeade">
+                <img class="contact-img3" src="./images/town3.webp" alt="hogesmeade">
+            </div>
+            <div class="contact-form">
+                <h2 class="contact-send-msg">Send Us a Message!</h2>
+                <form class="form" action="thankyou-msg.html" method="GET">
+                    <input type="hidden" name="date" id="dateField" value="">
+                    <label>First Name*<input name="fname" type="text" value="" placeholder="Your First Name" size="30" maxlength="30" required></label>
+                    <label id="email">Email*<input name="email" type="email" value="" placeholder="Your@email.com" size="30" maxlength="30" required></label>
+                    <label>Subject<input name="subject" type="text" value="" placeholder="Subject" size="30" maxlength="30"></label>
+                    <label>Message<textarea name="description" placeholder="Message" cols="40" rows="10"></textarea></label>
+                    <input class="contact-submit" type="submit" name="send" value="Send"> 
+                </form>
+            </div>
         </div>
-        <div class="cards"></div>
     </main>
     <footer>
         <div>

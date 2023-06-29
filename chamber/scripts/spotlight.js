@@ -16,7 +16,7 @@ function displaySpotlights(cardList){
         newdiv.classList.add('spotlight'+spotlightcount);
         spotlightcount++;
         newdiv.innerHTML = `<h4>${spotlight.name}</h4>
-        <p class="center"><a href="${spotlight.website}"><img src="${spotlight.image}" alt="Image of ${spotlight.name}"></a></p>
+        <p class="center"><a href="${spotlight.website}"><img src="${spotlight.image}" alt="${spotlight.name}"></a></p>
         <p>${spotlight.address}</p>
         <p>${spotlight.desc}</p>`;
         mainspotlight.append(newdiv);

@@ -3,7 +3,6 @@
     --header: #3B1F2B;
     --nav-normal: #AF9164;
     --nav-highlight: #8B2635;
-    --accent-green: #254D32;
     --accent-lilac: #B48EAE;
     --accent-lilac-rgb: 180, 142, 174;
   }
@@ -208,4 +207,27 @@
   .cards a {
     font-size: 1.2rem;
   }
+  /* contact page */
+  .contact-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .contact-form {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
+.contact-main {
+  background-image: url(../images/discover/smaller-back.png);
+  background-repeat: repeat;
+}
+.contact-page-content {
+  max-width: 900px;
+  margin: 25px auto;
+  background-color: white;
+  padding: 0 2%;
+}
+
+}
+
