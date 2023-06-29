@@ -211,6 +211,9 @@ figure {
     box-shadow: 5px 5px 5px var(--header);
     padding: 20px;
 }
+.spotlightbox img {
+    width: 60%;
+}
 .spotlight1-info, .spotlight1-info-2, 
 .spotlight2-info, .spotlight2-info-2,
 .spotlight3-info, .spotlight3-info-2

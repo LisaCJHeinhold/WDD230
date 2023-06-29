@@ -5,7 +5,8 @@
         "phone": "+44 1234 567890",
         "website": "www.threebroomsticks.com",
         "image": "./images/directory/three-broomsticks.webp",
-        "membership": "Gold"
+        "membership": "Gold",
+        "desc": "Unwind with a pint of Butterbeer and cozy up by the fireplace at The Three Broomsticks pub in Hogsmeade - where magical moments and good company await"
     },
     {
         "name": "Zonko's Joke Shop",
@@ -13,7 +14,8 @@
         "phone": "+44 1234 567892",
         "website": "www.zonkos.com/hogesmeade",
         "image": "./images/directory/zonkos.webp",
-        "membership": "Bronze"
+        "membership": "Bronze",
+        "desc": "Get ready to unleash your mischievous side with a visit to Zonko's Joke Shop - the ultimate destination for magical tricks and laughter."
     },
     {
         "name": "Honeydukes Sweet Shop",
@@ -21,7 +23,8 @@
         "phone": "+44 1234 567895",
         "website": "www.honeydukessweets.com",
         "image": "./images/directory/honeydukes.webp",
-        "membership": "Silver"
+        "membership": "Silver",
+        "desc": "Indulge your sweet tooth with a visit to Honeydukes Sweet Shop, where whimsical treats and sugary delights await - a paradise for every wizard's sweetest cravings."
     },
     {
         "name": "Gladrags Wizardwear",
@@ -29,7 +32,8 @@
         "phone": "+44 1234 567896",
         "website": "www.wizardwear.com",
         "image": "./images/directory/Gladrags_wizardwear.webp",
-        "membership": "Bronze"
+        "membership": "Bronze",
+        "desc": "Step into style and embrace your magical fashion at Gladrags Wizardwear - where elegance meets enchantment in every stitch."
     },
     {
         "name": "Owl Post Office",
@@ -37,7 +41,8 @@
         "phone": "+44 1234 567897",
         "website": "www.owlpost.com",
         "image": "./images/directory/owl_post.webp",
-        "membership": "Silver"
+        "membership": "Silver",
+        "desc": "Sending messages across magical realms is a breeze at the Owl Post Office in Hogsmeade - your one-stop destination for reliable and speedy deliveries."
     },
     {
         "name": "The Hogesmeade Community Outreach Center",
@@ -45,7 +50,8 @@
         "phone": "+44 1234 567890",
         "website": "www.HCOC.com",
         "image": "./images/directory/hcoc.webp",
-        "membership": "Non-Profit"
+        "membership": "Non-Profit",
+        "desc": "Join hands with the caring community at The Hogesmeade Community Outreach Center - where we work together to make a positive impact in the wizarding world."
     },
     {
         "name": "Dervish and Banges",
@@ -53,7 +59,8 @@
         "phone": "+44 1234 567894",
         "website": "www.dervishandbanges.com",
         "image": "./images/directory/Dervish_and_Banges.webp",
-        "membership": "Gold"
+        "membership": "Gold",
+        "desc": "Discover a treasure trove of magical artifacts and accessories at Dervish and Banges - your go-to shop for all your wizarding needs."
     },
     {
         "name": "Whispering Willow Herbology Emporium",
@@ -61,7 +68,8 @@
         "phone": "+44 1234 567892",
         "website": "www.whisperingwillow.com",
         "image": "./images/directory/herbology.webp",
-        "membership": "Bronze"
+        "membership": "Bronze",
+        "desc": "Unlock the secrets of nature's magic at the Whispering Willow Herbology Emporium - where enchanted plants and mystical potions await your exploration."
     },
     {
         "name": "The Wands for Witches and Wizards Foundation",
@@ -69,7 +77,8 @@
         "phone": "+44 1234 567891",
         "website": "www.wands4witchesNwizards.com",
         "image": "./images/directory/wand.webp",
-        "membership": "Non-Profit"
+        "membership": "Non-Profit",
+        "desc": "Empowering every witch and wizard with the perfect wand, The Wands for Witches and Wizards Foundation ensures that magic always finds its rightful match"
     },
     {
         "name": "Scrivenshaft's Quill Shop",
@@ -77,7 +86,8 @@
         "phone": "+44 1234 567893",
         "website": "www.Scrivenshaftsquills.com",
         "image": "./images/directory/Scrivenshaft.webp",
-        "membership": "Silver"
+        "membership": "Silver",
+        "desc": "Experience the art of writing in its finest form at Scrivenshaft's Quill Shop - where quills of exquisite craftsmanship bring words to life on parchment."
     },
     {
         "name": "Madam Puddifoot's Tea Shop",
@@ -85,6 +95,7 @@
         "phone": "+44 1234 567891",
         "website": "www.madampuddifoots.com",
         "image": "./images/directory/tea.webp",
-        "membership": "Gold"
+        "membership": "Gold",
+        "desc": "Savor enchanting moments over a cup of perfectly brewed tea at Madam Puddifoot's Tea Shop - where love and tranquility intertwine in every sip."
     }
 ]}
