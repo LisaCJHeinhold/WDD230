@@ -1,0 +1,38 @@
+:root {
+    --redwood: #A54657;
+    --wine: #3c171e;
+    --yellow: #F7EE7F;
+    --orange: #F1A66A;
+    --salmon: #f7746b;
+}
+@media (min-width: 1050px){
+    .ham-menu > ul {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        padding: 20px;
+        height: 50%;
+    }
+    .ham-menu > ul > li {
+        font-size: 5rem;
+        white-space: nowrap;
+        letter-spacing: 0.15em;
+        cursor: pointer;
+        color: var(--wine);
+        list-style: none;
+    }
+    .ham-menu > ul > li:hover {
+        color: var(--salmon);
+    }
+    /* header button */
+    .order-button-header {
+        position: absolute;
+        margin: 0;
+        top: 10%;
+        left: 85%;
+        border-radius: 15px;
+        padding: 10px;
+        display: flex;
+        font-size: 1.5rem;
+    }
+}

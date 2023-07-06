@@ -1,0 +1,63 @@
+{"smoothies": [
+    {
+        "name": "Tropical Bliss",
+        "id": 1,
+        "desc": "A refreshing blend of pineapple, mango, banana, and coconut water. Taste the tropical paradise!",
+        "image": "./images/smoothie1.jpg"
+    },
+    {
+        "name": "Berry Burst",
+        "id": 2,
+        "desc": "Bursting with flavors of strawberries, blueberries, raspberries, and a hint of tangy lime. A delightful explosion of antioxidants.",
+        "image": "./images/smoothie2.jpg"
+    },
+    {
+        "name": "Sunshine Delight",
+        "id": 3,
+        "desc": "An energizing combination of orange, pineapple, banana, and turmeric. Sip on this golden elixir and feel the sunshine within!",
+        "image": "./images/smoothie3.jpg"
+    },
+    {
+        "name": "Green Goddess",
+        "id": 4,
+        "desc": "A nutrient-packed blend of spinach, kale, cucumber, pineapple, and apple. This smoothie will make you feel like a health-conscious superhero.",
+        "image": "./images/smoothie4.jpg"
+    },
+    {
+        "name": "Citrus Zing",
+        "id": 5,
+        "desc": "Experience the zesty combination of oranges, lemons, and grapefruits. A tangy and invigorating treat to start your day.",
+        "image": "./images/smoothie5.jpg"
+    },
+    {
+        "name": "Mango Tango",
+        "id": 6,
+        "desc": "Get your dance moves ready for this tropical concoction of fresh mango, papaya, lime, and a touch of ginger. Let the flavors tango on your taste buds!",
+        "image": "./images/smoothie6.jpg"
+    },
+    {
+        "name": "Watermelon Wave",
+        "id": 7,
+        "desc": "Dive into the refreshing waves of watermelon, strawberries, lime, and mint. A hydrating and revitalizing smoothie perfect for sunny Carlsbad days.",
+        "image": "./images/smoothie7.jpg"
+    },
+    {
+        "name": "Peachy Paradise",
+        "id": 8,
+        "desc": "Take a trip to paradise with juicy peaches, pineapple, coconut milk, and a hint of vanilla. Close your eyes and imagine the ocean breeze.",
+        "image": "./images/smoothie8.jpg"
+    },
+    {
+        "name": "Blue Lagoon",
+        "id": 9,
+        "desc": "Dive into the deep blue sea of blueberries, bananas, coconut water, and a splash of spirulina. Experience a serene moment of tranquility.",
+        "image": "./images/smoothie9.jpg"
+    },
+    {
+        "name": "Pomegranate Punch",
+        "id": 10,
+        "desc": "A delightful blend of pomegranate, raspberries, strawberries, and apple. This vibrant and antioxidant-rich smoothie will pack a flavorful punch.",
+        "image": "./images/smoothie10.jpg"
+    }
+]
+}
