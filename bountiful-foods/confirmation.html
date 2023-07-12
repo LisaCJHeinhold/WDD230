@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/large.css">
+    <script src="./scripts/confirm.js" defer></script>
+    <script src="./scripts/fruit-form.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -38,7 +40,28 @@
         <button class="order-button-header" onclick="window.location.href='./fresh.html';">Order Here!</button>
     </header>
     <main class="fresh-main">
-        
+        <h2>Thank you for your order!</h2>
+        <p class="todaysdate"><span id="date"></span></p>
+        <p>Estimated Time: 15min</p>
+        <hr>
+        <h3>Order Confirmation:</h3>
+        <section>
+            <p><span id="name"></span></p>
+            <p><span id="email"></span></p>
+            <p><span id="phone"></span></p>
+            <p><span id="option"></span></p>
+            <p><span id="fruit"></span></p>
+            <p>Special Instructions: <span id="specIn"></span></p>
+        </section>
+        <p>Total Cost: $8</p>
+        <p>Cash only, Payment recived at pickup.</p>
+        <hr>
+        <p>For any questions or issues please contact us at +1(760)593-5382.</p>
+        <div class="socials">
+            <a href="https://www.facebook.com/" target="_blank"><img src="./images/f_logo_RGB-Blue_100.png" alt="Facebook icon link" class="face-image"></a>
+            <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="./images/01 Gradient Glyph/Instagram_Glyph_Gradient.png" alt="Instagram icon link" class="gram-image"></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den" target="_blank"><img src="./images/Twitter social icons - circle/Twitter social icons - circle - blue.png" alt="Twitter icon link" class="twit-image"></a>
+        </div>
     </main>
     <footer class="footer">
         <p class="copy">&copy; <span id="currentyear"></span> .:|:. Lisa C. Heinhold .:|:. Idaho</p>

@@ -11,9 +11,10 @@ const displayFruit = (fruit) => {
 
     fruit.forEach((fruit) => {
         let option = document.createElement("form")
-        option.innerHTML = `<label class="fruit-name container" for="${fruit.name}"><input type="checkbox" id="${fruit.name}" name="${fruit.name}" value="${fruit.name}"> ${fruit.name}<span class="checkmark"></span></label><br><br>`
+        option.innerHTML = `<label class="fruit-name container" for="${fruit.name}"><input type="checkbox" id="${fruit.name}" name="aFruit" value="${fruit.name}"> ${fruit.name}<span class="checkmark"></span></label><br><br>`
         options.appendChild(option);
     });
 
 };
 getFruitData();
+

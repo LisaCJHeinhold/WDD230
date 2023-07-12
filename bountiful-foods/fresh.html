@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/fruit-form.js" defer></script>
+    <script src="./scripts/confirm.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -44,11 +45,22 @@
         <section class="order-form">
             <form action="confirmation.html" method="GET">
                 <section class="personal">
-                    <input type="hidden" name="date" id="dateField" value="">
                     <label class="fresh-label">First Name*<input class="fresh-input" name="fname" type="text" value="" placeholder="Your First Name" size="30" maxlength="30" required></label>
                     <label class="fresh-label">Last Name*<input class="fresh-input" name="lname" type="text" value="" placeholder="Your Last Name" size="30" maxlength="30" required></label>
                     <label class="fresh-label" id="email">Email*<input class="fresh-input" name="email" type="email" value="" placeholder="Your@email.com" size="30" maxlength="30" required></label>
                     <label class="fresh-label" id="phone">Cell Phone*<input class="fresh-input" name="phone" type="tel" value="" placeholder="1234567899" size="10" maxlength="10" required></label>
+                </section>
+                <section class="bagorsmooth">
+                    <h2>Would you like a Smoothie or a Fruit bag?</h2>
+                    <hr>
+                        <label class="container1">Smoothie
+                            <input type="radio" name="option" value="Smoothie">
+                            <span class="checkmark1"></span>
+                        </label>
+                        <label class="container1">Fruit Bag
+                            <input type="radio" name="option" value="Fruit Bag">
+                            <span class="checkmark1"></span>
+                        </label>
                 </section>
                 <section class="choose-three">
                     <h2 class="fruit-choice">Choose 3 fruits!</h2>
