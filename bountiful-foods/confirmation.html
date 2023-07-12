@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
-    <meta name="description" content="Order confirmation page for Bountiful Foods"
+    <meta name="description" content="Order confirmation page for Bountiful Foods">
     <title>Bountiful Foods Order Confirmation Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
 </head>
 <body>
     <header class="header">
@@ -30,13 +34,15 @@
                 </ul>
             </div>
         </div>
-        <h1>Bountiful Foods</h1>
-
+        <h1 class="home-title">Bountiful Foods</h1>
+        <button class="order-button-header" onclick="window.location.href='./fresh.html';">Order Here!</button>
     </header>
-    <main class="confirmation-main">
-
+    <main class="fresh-main">
+        
+    </main>
     <footer class="footer">
-
+        <p class="copy">&copy; <span id="currentyear"></span> .:|:. Lisa C. Heinhold .:|:. Idaho</p>
+        <p>Last Updated: <span id="updated"></span></p>
     </footer>
 </body>
 </html>

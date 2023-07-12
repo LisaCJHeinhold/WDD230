@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
-    <meta name="description" content="Order page for Bountiful Foods"
+    <meta name="description" content="Order page for Bountiful Foods">
     <title>Bountiful Foods Order Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <script src="./scripts/fruit-form.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -30,13 +35,37 @@
                 </ul>
             </div>
         </div>
-        <h1>Bountiful Foods</h1>
+        <h1 class="home-title">Bountiful Foods</h1>
 
     </header>
     <main class="fresh-main">
-        
+        <h2>Order Your Fresh Smoothie</h2>
+        <hr>
+        <section class="order-form">
+            <form action="confirmation.html" method="GET">
+                <section class="personal">
+                    <input type="hidden" name="date" id="dateField" value="">
+                    <label class="fresh-label">First Name*<input class="fresh-input" name="fname" type="text" value="" placeholder="Your First Name" size="30" maxlength="30" required></label>
+                    <label class="fresh-label">Last Name*<input class="fresh-input" name="lname" type="text" value="" placeholder="Your Last Name" size="30" maxlength="30" required></label>
+                    <label class="fresh-label" id="email">Email*<input class="fresh-input" name="email" type="email" value="" placeholder="Your@email.com" size="30" maxlength="30" required></label>
+                    <label class="fresh-label" id="phone">Cell Phone*<input class="fresh-input" name="phone" type="tel" value="" placeholder="1234567899" size="10" maxlength="10" required></label>
+                </section>
+                <section class="choose-three">
+                    <h2 class="fruit-choice">Choose 3 fruits!</h2>
+                    <hr>
+                        <div class="checkbox-fruit"></div>
+                        <hr>
+                </section>
+                <section class="special">
+                    <label class="fresh-label">Special Instructions:<textarea name="Instructions" placeholder="Special Instructions" cols="30" rows="5"></textarea></label>
+                    <input class="order-submit" type="submit" name="order" value="Sumbit Order!"> 
+                </section>
+            </form>
+        </section>
+    </main>
     <footer class="footer">
-
+        <p class="copy">&copy; <span id="currentyear"></span> .:|:. Lisa C. Heinhold .:|:. Idaho</p>
+        <p>Last Updated: <span id="updated"></span></p>
     </footer>
 </body>
 </html>

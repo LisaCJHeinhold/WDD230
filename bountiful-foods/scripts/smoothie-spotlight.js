@@ -26,6 +26,7 @@ function generateSmoothieHTML(smoothie) {
       <img src="${image}" alt="${name}" />
       <h2>${name}</h2>
       <p>${desc}</p>
+      <button onclick="window.location.href='./fresh.html';">Order Here!</button>
     </div>
   `;
   return html;

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/smoothie-spotlight.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
     
 </head>
 <body>
@@ -42,22 +43,49 @@
     <main class="home-main">
         <div id="smoothie-container">
             <!-- use JSON for this -->
-
         </div>
         <div class="total-drinks">
-
+            <h2>You have ordered <span class="num-orders"></span> drinks from Bountiful Foods!</h2>
         </div>
         <div class="location-info">
-
+            <img class="carlsbad-img" src="./images/carlsbad.jpg" alt="Carlsbad California">
+            <h2>Carlsbad California</h2>
+            <p>Carlsbad, California is a captivating coastal city known for its breathtaking beaches, vibrant community, and cultural attractions. With pristine sandy shores like Carlsbad State Beach and South Ponto Beach, it's a haven for surfers, sunbathers, and families. Carlsbad also offers world-class resorts, including the iconic LEGOLAND California Resort. Its mild Mediterranean climate, charming downtown village, and proximity to popular destinations make Carlsbad an unforgettable seaside escape.</p>
         </div>
         <div class="weather">
-
+            <div class="weather-content">
+                <h2>Weather</h2>
+                <div class="weather-text">
+                    <p>Temperature: <span id="current-temp"></span> &deg;F</p>
+                    <p>Humidity: <span id="humidity"></span>%</p>
+                </div>
+                <figure>
+                    <img src="-" alt="" id="weather-icon">
+                    <figcaption></figcaption>
+                </figure> 
+            </div>
         </div>
         <div class="order-here">
-
+            <img src="./images/berries.jpg" alt="fresh berries">
+            <h2>Create Your Own Fresh Smoothie!</h2>
+            <p>Indulge in the ultimate refreshing and nutritious experience by ordering a fresh fruit smoothie. Bursting with vibrant flavors and packed with vitamins, these delightful concoctions are a surefire way to revitalize your day. </p>
+            <button class="order-button" onclick="window.location.href='./fresh.html';">Order Here!</button>
         </div>
         <div class="contact">
-
+            <h2>Bountiful Foods</h2>
+            <h3>Hours</h3>
+            <p>Mon-Thurs: 7:30am - 9:30pm</p>
+            <p>Fri-Sat: 8:30am -10:30pm</p>
+            <p>Sunday: Closed</p>
+            <h3>Contact</h3>
+            <p>Phone: +1 760 593 5382 </p>
+            <p>Email: bountifulfoods@gmail.com</p>
+            <p>Address:<a href="https://www.google.com/maps/place/Aloha+Ice+Co/@33.159226,-117.3484075,18z/data=!4m10!1m2!2m1!1scarlsbad+califorina+food+truck!3m6!1s0x80dc7302683fcc7d:0x57d9d219980fd168!8m2!3d33.1593228!4d-117.3487506!15sCh5jYXJsc2JhZCBjYWxpZm9ybmlhIGZvb2QgdHJ1Y2taICIeY2FybHNiYWQgY2FsaWZvcm5pYSBmb29kIHRydWNrkgEMZGVzc2VydF9zaG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5LZVRoZlMzZDNSUkFC4AEA!16s%2Fg%2F11pbb8ly2r?entry=ttu" target="_blank" class="location"> 445 Carlsbad Village Dr, Carlsbad, CA 92008</a></p>
+            <div class="socials">
+                <a href="https://www.facebook.com/" target="_blank"><img src="./images/f_logo_RGB-Blue_100.png" alt="Facebook icon link" class="face-image"></a>
+                <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="./images/01 Gradient Glyph/Instagram_Glyph_Gradient.png" alt="Instagram icon link" class="gram-image"></a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den" target="_blank"><img src="./images/Twitter social icons - circle/Twitter social icons - circle - blue.png" alt="Twitter icon link" class="twit-image"></a>
+            </div>
         </div>
     </main>
     <footer class="footer">

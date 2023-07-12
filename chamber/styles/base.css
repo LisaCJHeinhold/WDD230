@@ -40,12 +40,12 @@ nav ul li {
     display: flex;
     margin: 15px;
 }
-.face-image{
+.face-image {
     height: 32px;
     width: 35px;
     margin: auto 2px;
 }
-.link-image{
+.link-image {
     height: 31px;
     width: 35px;
     margin: auto 2px;

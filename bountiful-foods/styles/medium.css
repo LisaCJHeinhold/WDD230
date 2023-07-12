@@ -1,5 +1,5 @@
 :root {
-    --redwood: #A54657;
+    --redwood: #d66a7e;
     --wine: #3c171e;
     --yellow: #F7EE7F;
     --orange: #F1A66A;
@@ -31,7 +31,7 @@
     .order-button-header {
         position: absolute;
         margin: 0;
-        top: 10%;
+        top: 15%;
         left: 85%;
         background-color: var(--yellow);
         border: 2px solid var(--wine);
@@ -41,5 +41,19 @@
         display: flex;
         font-size: 1rem;
     }
-
+    #smoothie-container button {
+        border-radius: 20px;
+        font-size: 1.5rem;
+        margin: 0 10px 10px 10px;
+      }
+      h2 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.3rem;
+      }
+      .order-button {
+        border-radius: 20px;
+        font-size: 1.5rem;
+      }
 }
