@@ -19,5 +19,5 @@ button.addEventListener("click", function() {
   counter.textContent = clickCount;
 
   // Store the new click count in local storage
-  localStorage.setItem("clickCount", clickCount);
+  localStorage.setItem("submitButtonClickCount", clickCount);
 });
