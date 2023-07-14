@@ -112,4 +112,9 @@
     .footer {
         margin-top: 40px;
     }
+    .aboutus-img {
+        display: block;
+        max-width: 60%;
+        margin: auto auto;
+    }
 }

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/confirm.js" defer></script>
-    <script src="./scripts/fruit-form.js" defer></script>
+    <!-- <script src="./scripts/fruit-form.js" defer></script> -->
 </head>
 <body>
     <header class="header">
@@ -45,14 +45,15 @@
         <p>Estimated Time: 15min</p>
         <hr>
         <h3>Order Confirmation:</h3>
-        <section>
+        <section class="order-details">
             <p><span id="name"></span></p>
             <p><span id="email"></span></p>
             <p><span id="phone"></span></p>
             <p><span id="option"></span></p>
-            <p><span id="fruit"></span></p>
+            <p>Fruits:</p>
+            <ul id="selected-fruits"><ul id="nutrition"></ul></ul>
             <p>Special Instructions: <span id="specIn"></span></p>
-        </section>
+          </section>
         <p>Total Cost: $8</p>
         <p>Cash only, Payment recived at pickup.</p>
         <hr>
