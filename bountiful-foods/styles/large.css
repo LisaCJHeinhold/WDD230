@@ -117,4 +117,9 @@
         max-width: 60%;
         margin: auto auto;
     }
+    .google-map {
+        display: block;
+        max-width: 60%;
+        margin: auto auto;
+    }
 }
