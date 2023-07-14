@@ -8,7 +8,7 @@ let counter = document.getElementById("count");
 let clickCount = localStorage.getItem("submitButtonClickCount") || 0;
 
 // Update the counter element with the click count
-counter.textContent = clickCount;
+counter.innerHTML = clickCount;
 
 // Add an event listener to the button element
 button.addEventListener("click", function() {
@@ -16,7 +16,7 @@ button.addEventListener("click", function() {
   clickCount++;
 
   // Update the counter element with the new click count
-  counter.textContent = clickCount;
+  counter.innerHTML = clickCount;
 
   // Store the new click count in local storage
   localStorage.setItem("submitButtonClickCount", clickCount);
