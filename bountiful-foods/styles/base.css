@@ -155,7 +155,11 @@ label[for="ham-menu"] {
     background-color: var(--salmon);
     margin: 0;
     padding: 15px;
-    color: var(--wine);
+}
+.title {
+  color: var(--wine);
+  text-decoration: none;
+  font-size: 2.5rem;
 }
 .order-button-header {
     display: none;
@@ -237,6 +241,16 @@ label[for="ham-menu"] {
   border-radius: 15px;
   padding: 10px;
   font-size: 1rem;
+}
+/* confirmation */
+.bold {
+  font-weight: 600;
+}
+#nutrition, #specIn {
+  font-weight: 400;
+}
+.confirm-main h3 {
+  font-size: 1.4rem;
 }
 /* contact */
 .contact {
@@ -464,6 +478,7 @@ textarea{
   border-radius: 15px;
   padding: 8px;
   font-size: 1.3rem;
+  height: fit-content;
 }
 /* about page */
 .about-main {

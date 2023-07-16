@@ -4,19 +4,6 @@ async function getFruitData() {
     const response = await fetch(fruitDataUrl);
     const data = await response.json();
     displayFruit(data.fruit);
-   console.log()
-    // const fruitCheckboxes = document.querySelectorAll('input[name="aFruit"]');
-    // fruitCheckboxes.forEach((checkbox) => {
-    //   checkbox.addEventListener("change", () => {
-    //     const fruitName = checkbox.value;
-    //     const nutritionDiv = document.getElementById(`${fruitName}-nutrition`);
-    //     if (checkbox.checked) {
-    //       nutritionDiv.style.display = "none";
-    //     } else {
-    //       nutritionDiv.style.display = "none";
-    //     }
-    //   });
-    // });
   }
   const displayFruit = (fruit) => {
     const options = document.querySelector(".checkbox-fruit");

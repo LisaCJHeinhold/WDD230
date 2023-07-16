@@ -12,7 +12,7 @@
     <script src="./scripts/smoothie-spotlight.js" defer></script>
     <script src="./scripts/weather.js" defer></script>
     <script src="./scripts/order-count.js" defer></script>
-    
+    <script src="./scripts/headerfooter.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -38,14 +38,14 @@
                 </ul>
             </div>
         </div>
-        <h1 class="home-title">Bountiful Foods</h1>
+        <h1 class="home-title"><a href="index.html" class="title">Bountiful Foods</a></h1>
         <button class="order-button-header" onclick="window.location.href='./fresh.html';">Order Here!</button>
     </header>
     <main class="home-main">
         <div id="smoothie-container">
             <!-- use JSON for this -->
         </div>
-        <div class="total-drinks" onload="displaySubmitButtonClickCount()">
+        <div class="total-drinks">
             <h2>You have ordered <span id="count"></span> drinks from Bountiful Foods!</h2>
         </div>
         <div class="location-info">
@@ -92,6 +92,7 @@
     <footer class="footer">
         <p class="copy">&copy; <span id="currentyear"></span> .:|:. Lisa C. Heinhold .:|:. Idaho</p>
         <p>Last Updated: <span id="updated"></span></p>
+        <p>Resource: <a href="https://www.fruityvice.com/">www.fruityvice.com</a> and <a href="https://openweathermap.org/">openweathermap.org</a>.</p>
     </footer>
 </body>
 </html>

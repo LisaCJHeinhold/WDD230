@@ -23,7 +23,7 @@ function generateSmoothieHTML(smoothie) {
   const { name, desc, image } = smoothie;
   const html = `
     <div class="smoothie">
-      <img src="${image}" alt="${name}" />
+      <img src="${image}" alt="${name}"/>
       <h2>${name}</h2>
       <p>${desc}</p>
       <button onclick="window.location.href='./fresh.html';">Order Here!</button>

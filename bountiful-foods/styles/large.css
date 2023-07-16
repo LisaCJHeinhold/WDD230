@@ -117,4 +117,8 @@
         max-width: 60%;
         margin: auto auto;
     }
+    /* confirmaiton */
+    .confirm-card {
+        margin: 10px 10px;
+    }
 }
