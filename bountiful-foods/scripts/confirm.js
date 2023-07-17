@@ -41,4 +41,4 @@ async function main() {
   });
   nutritionEL.innerHTML = ` Calories ${cals} Fat ${fat} Sugar ${sugar} Carbohydrates ${carbs} Proteins ${protein}`
 }
-main()
+main();

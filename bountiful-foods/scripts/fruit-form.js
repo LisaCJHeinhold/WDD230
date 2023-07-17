@@ -28,3 +28,18 @@ async function getFruitData() {
   };
 getFruitData();
 
+// Define a variable to store the number of clicks
+let clickCount = 0;
+
+// Get the button element by its id
+let button = document.getElementById("order-submit");
+console.log(clickCount)
+
+// Add an event listener to the button that will execute a function when clicked
+button.addEventListener("click", function() {
+  // Increment the click count by one
+  clickCount++;
+  console.log(clickCount)
+  // Set the item in local storage with the key "clicks" and the value of click count
+  localStorage.setItem("clicks", clickCount);
+});

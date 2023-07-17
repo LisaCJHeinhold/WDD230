@@ -20,6 +20,9 @@ counter.textContent = clickCount;
 button.addEventListener("click", incrementClicks);
 
 
+//
+
+
 // document.addEventListener("DOMContentLoaded", function() {
 //     // Get the button element by its id
 //     let button = document.getElementById("order-submit");

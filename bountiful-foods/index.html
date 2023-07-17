@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/smoothie-spotlight.js" defer></script>
     <script src="./scripts/weather.js" defer></script>
-    <script src="./scripts/order-count.js" defer></script>
+    <!-- <script src="./scripts/order-count.js" defer></script> -->
     <script src="./scripts/headerfooter.js" defer></script>
 </head>
 <body>
@@ -38,8 +38,10 @@
                 </ul>
             </div>
         </div>
-        <h1 class="home-title"><a href="index.html" class="title">Bountiful Foods</a></h1>
-        <button class="order-button-header" onclick="window.location.href='./fresh.html';">Order Here!</button>
+        <div class="home-title">
+            <img src="./images/logos/Bountiful Foods (1).png" alt="logo"><a href="index.html" class="title"></a>
+            <button class="order-button-header" onclick="window.location.href='./fresh.html';">Order Here!</button>
+        </div>
     </header>
     <main class="home-main">
         <div id="smoothie-container">
@@ -90,6 +92,8 @@
         </div>
     </main>
     <footer class="footer">
+        <img src="./images/logos/Bountiful Foods (1).png" alt="logo">
+
         <p class="copy">&copy; <span id="currentyear"></span> .:|:. Lisa C. Heinhold .:|:. Idaho</p>
         <p>Last Updated: <span id="updated"></span></p>
         <p>Resource: <a href="https://www.fruityvice.com/">www.fruityvice.com</a> and <a href="https://openweathermap.org/">openweathermap.org</a>.</p>
