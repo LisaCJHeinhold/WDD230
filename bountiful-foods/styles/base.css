@@ -556,3 +556,7 @@ thead, tfoot {
 .movein {
   margin-left: 5%;
 }
+.resources a {
+  text-decoration: none;
+  color: var(--wine);
+}
