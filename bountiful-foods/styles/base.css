@@ -242,16 +242,7 @@ label[for="ham-menu"] {
   padding: 10px;
   font-size: 1rem;
 }
-/* confirmation */
-.bold {
-  font-weight: 600;
-}
-#nutrition, #specIn {
-  font-weight: 400;
-}
-.confirm-main h3 {
-  font-size: 1.4rem;
-}
+
 /* contact */
 .contact {
   background-color: var(--yellow);
@@ -505,4 +496,63 @@ textarea{
 }
 .hour-about {
   text-align: center;
+}
+/* confirmation */
+.bold {
+  font-weight: 600;
+}
+#nutrition, #specIn {
+  font-weight: 400;
+}
+.confirm-main h3 {
+  font-size: 1.4rem;
+}
+.confirm-card {
+  background-color: rgba(214,106,126, 0.3);
+  padding: 30px;
+  margin: 5% 10%;
+}
+.contact-line {
+  text-align: center;
+}
+.thanks {
+  font-size: 2.5rem;
+}
+.todaysdate, .estTime {
+  text-align: center;
+}
+#option {
+  text-align: center;
+  font-size: 2rem;
+  padding: 0 0;
+  margin: auto 20%;
+  border-bottom: 2px solid var(--wine);
+}
+#selected-fruits {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+#selected-fruits p {
+  padding: 0 20px;
+}
+table {
+  width: 90%;
+  margin: auto;
+}
+table, td {
+    border: 1px solid var(--wine);
+}
+td {
+  padding: 6px;
+}
+th {
+  padding: 6px;
+}
+thead, tfoot {
+    background-color: var(--wine);
+    color: #fff;
+}
+.movein {
+  margin-left: 5%;
 }

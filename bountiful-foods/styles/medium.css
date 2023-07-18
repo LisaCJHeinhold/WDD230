@@ -72,13 +72,5 @@
   .checkbox-fruit .fruit-name {
     padding-right: 30px;
   }
-  /* confirmation */
-  .confirm-card {
-    background-color: rgba(214,106,126, 0.3);
-    padding: 30px;
-    margin: 10px;
-  }
-  .contact-line {
-    padding-left: 10px;
-  }
+
 }

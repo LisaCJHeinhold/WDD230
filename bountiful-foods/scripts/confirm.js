@@ -27,7 +27,7 @@ async function main() {
   let carbs = 0;
   let protein = 0;
   selectedFruits.forEach((fruit) => {
-    const fruitItem = document.createElement('li');
+    const fruitItem = document.createElement('p');
     const fruitNutrition = document.createElement('li');
     const thisFruitNutrition = fruitData.find(x => x.name === fruit).nutritions;
     cals += Math.round(thisFruitNutrition.calories)
@@ -39,6 +39,35 @@ async function main() {
     fruitNutrition.textContent = nutrition;
     selectedFruitsList.appendChild(fruitItem, fruitNutrition);
   });
-  nutritionEL.innerHTML = ` Calories ${cals} Fat ${fat} Sugar ${sugar} Carbohydrates ${carbs} Proteins ${protein}`
+  nutritionEL.innerHTML = `<table>
+  <thead>
+      <tr>
+          <th colspan="2">Nutrition Info</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Calories</td>
+          <td>${cals}</td>
+      </tr>
+      <tr>
+          <td>Fat</td>
+          <td>${fat}</td>
+      </tr>
+      <tr>
+          <td>Sugar</td>
+          <td>${sugar}</td>
+      </tr>
+      <tr>
+          <td>Carbohydrates</td>
+          <td>${carbs}</td>
+      </tr>
+      <tr>
+          <td>Protein</td>
+          <td>${protein}</td>
+      </tr>
+  </tbody>
+</table>`
 }
 main();
+
