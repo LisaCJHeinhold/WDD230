@@ -32,7 +32,7 @@ getFruitData();
 let clickCount = 0;
 
 // Get the button element by its id
-let button = document.getElementById("#order-submit");
+let button = document.getElementById("order-submit");
 console.log(clickCount)
 
 // Add an event listener to the button that will execute a function when clicked
